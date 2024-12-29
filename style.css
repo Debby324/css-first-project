@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --bg-color: #f1f1f1;
+  --text-color: #0f172a;
+  --main-color: #6b7280;
+  --other-color: #334155;
+  --big-font: 4.3rem;
+  --p-font: 1rem;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+nav {
+    background-color: white;
+    font-family: "Pacifico", sans-serif;
+  position: sticky;
+  top: 0;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 17px 11%;
+  background: transparent;
+  border-bottom: 2px solid #6b7280;
+  transition: all 0.45s ease;
+}
+nav{
+}
+
+.navba {
+    
+
+  display: flex;
+  
+}
+
+.navba a {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 25px;
+  margin: 0 5px;
+  background: transparent;
+  transition: all 0.45s ease;
+  color: #3498db;
+}
+.navba a:hover {
+  background: #6b7280;
+  color: #334155;
+  transition: all 0.4s ease-in-out;
+}
+h1 {
+  color: #334155;
+}
+span {
+  color:#6b7280;
+}
+h1:hover {
+  color: #3498db;
+}
+span:hover {
+    color: #334155;
+}
+.icons i {
+  font-size: 22px;
+  background: #6b7280;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 42%;
+  transition: all 0.45s ease;
+  padding: 5px;
+  color: whitesmoke ;
+
+}
+.icons i:hover{
+    transform: scale(0.95);
+}
+#menu-icon{
+    font-size: 40px;
+    z-index: 10001;
+    display:none ;
+    cursor: pointer;
+}
+section{
+    padding: 100px 11% 90px;
+}
+
+
+.home{
+    position: fixed;
+    background-color: #6b7280;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.span-two{
+color: white;
+}
+
+.one{
+  /* position: absolute; */
+  /* width: 100px; */
+  /* height: 100px; */
+  /* border-radius: 50%; */
+  /* left: 82%; */
+  /* top: 20px; */
+    background-color: ;
+  
+
+}
+.five{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 82%;
+  top: 20px;
+    background-color:#f5;  
+
+}
+.two{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 82%;
+  top: 20px;
+    background-color: #f5;
+    
+    
+
+}
+.three{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 82%;
+  top: 20px;
+    background-color: #5;
+    
+    
+
+}
+.four{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 82%;
+  top: 20px;
+    background-color: #5;
+    
+    
+
+}
